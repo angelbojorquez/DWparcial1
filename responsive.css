@@ -1,0 +1,471 @@
+@media (max-width:1355px){
+    aside{
+        width: 150px;
+    }
+    #cabecera{
+        width: 90%;
+    }    
+    #cabecera h1{
+        display: none;
+    }
+    #cabecera #Logo img{
+        display: none;
+    }
+    #menu{
+        width: 100%;
+        height: 50px;
+        margin-left: 30px;
+        background-color: transparent;
+        color: white;
+        font-size: 15px;
+        font-family: helvetica, Arial;
+        display: inline-block;
+    }
+  
+
+@media (max-width:1299px){
+    #cabecera{
+        width: 100%;
+        height: 150px;
+    }
+    footer{
+        clear: both;
+        width: 60%;
+        height: 50px;
+        margin-left: 240px;
+      
+    }
+   
+    aside{
+        display: none;
+    }
+    
+    section{
+        width: 100%;
+        margin-left: 200px;
+    }
+
+    .sliders{
+        width: 1000px;
+        margin-right: 80px;
+        margin-left: -20px;
+        margin-bottom: 10px;
+    }
+    @keyframes movimiento1{
+        from{margin-left: 80%;}
+        to{margin-left: -50%;}
+    }
+    .fin {
+        margin-top: 5px;
+        width: 600px;
+        height: 30px;
+        text-align: center;
+        animation: movimiento1 18s infinite;
+    }
+    button{
+        margin-left: 400px;
+    }
+    footer{
+        width: 100%;
+        margin-left: 0px;
+    }
+    button{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:1148px){
+    
+    #cabecera{
+        width: 100%;
+        height: 100px;
+    }
+    section{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .slides{
+        display: none;
+    }
+    #articulo{
+        height: 100%;
+        width: 800px;
+        background-color: rgba(69, 106, 228, 0.651);
+        text-align: justify;
+        padding: 26px;
+        color:black;
+        font-style: italic;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    
+    }
+    #mision{
+
+        width: 835px;
+        height: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px; 
+        background-color: rgba(255, 0, 0, 0.459);
+        margin-top: 15px;
+        padding: 10px;
+        text-align: justify;
+        color:black;
+        font-style: italic;
+    }
+    div video{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px; 
+        width: 560px;
+
+
+    }
+    #video{
+
+        margin-top: 15px;
+        align-items: center;
+    }
+    .sliders {
+        border-top-left-radius: 10px; 
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px; 
+        border-bottom-right-radius: 10px;
+        overflow: hidden;
+        height: 450px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        height: 400px;
+        width: 800px;
+    }
+    .fin {
+       display: none;
+
+    }
+
+}
+@media (max-width:870px){
+    #cabecera{
+        width: 800px;
+    }
+    #articulo{
+        height: 100%;
+        width: 600px;
+      
+    
+    }
+#menu{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color: transparent;
+    color: transparent;
+    font-size: 12px;
+    font-family: helvetica, Arial;
+    display: inline-block;
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    margin: 0px auto;
+    display: inline-block;
+}
+
+
+#menu ul li a{
+    display: block;
+    padding-right: 100%;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ 
+    section {
+        height: 100%;
+        width: 100%;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    article{
+        width: 500px;
+        text-align: justify;
+    }
+    #articulo {
+        width: 500px;
+        height: auto;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    #mision {
+        width: 500px;
+        height: 230px;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    div video {
+        margin-top: 5px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 465px;
+    }
+    div video {
+        margin-top: -10px;
+        border-radius: 10px;
+        margin-left: 10px;
+        width: 500px;
+    }
+    .sliders {
+        width: 500px;
+        margin-right: 100px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .fin {
+        margin-top: -180px;
+        margin-bottom: 0px;
+        width: 600px;
+        height: 30px;
+        text-align: center;
+        animation: movimiento1 18s infinite;
+    }
+    button{
+        margin-top: 10px;
+        margin-left: 300px;
+    }
+    
+
+    footer {
+        clear: both;
+        width: 100%;
+        height: 50px;
+    }
+}
+
+@media (max-width:570px){
+    #cabecera{
+        margin-top: 5px;
+        width: 400px;
+        height: 320px;
+        border-top-left-radius: 10px; 
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px; 
+        border-bottom-right-radius: 10px;
+    }
+    #articulo{
+        height: 100%;
+        width: 400px;
+      
+    
+    }
+#menu{
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    color: transparent;
+    font-size: 15px;
+    font-family: helvetica, Arial;
+    display: inline-block;
+
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    width: 100px;
+    margin: 0px auto;
+    display: inline-block;
+
+}
+
+
+#menu ul li a{
+    display: block;
+    padding-right: 100%;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+ 
+    section {
+        height: 100%;
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    article{
+        width: 400px;
+        text-align: justify;
+    }
+    #articulo {
+        width: 400px;
+        height: auto;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    #mision {
+        width: 400px;
+        height: auto;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    div video {
+   
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 465px;
+    }
+    div video {
+        margin-top: -10px;
+        border-radius: 10px;
+        margin-left: 10px;
+        width: 400px;
+    }
+    .sliders {
+        width: 400px;
+        margin-right: 100px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .fin {
+        margin-top: -180px;
+        margin-bottom: 0px;
+        width: 600px;
+        height: 30px;
+        text-align: center;
+        animation: movimiento1 18s infinite;
+    }
+    button{
+        margin-top: 10px;
+        margin-left: 300px;
+    }
+    
+
+    footer {
+        clear: both;
+        width: 100%;
+        height: 50px;
+    }
+}
+
+@media (max-width:432px){
+    #cabecera{
+        margin-top: 5px;
+        width: 350px;
+        height: 320px;
+        border-top-left-radius: 10px; 
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px; 
+        border-bottom-right-radius: 10px;
+    }
+    #articulo{
+        height: 100%;
+        width: 3350px;
+      
+    
+    }
+#menu{
+    width: 100%;
+    height: 350px;
+    background-color: transparent;
+    color: transparent;
+    font-size: 15px;
+    font-family: helvetica, Arial;
+    display: inline-block;
+
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    width: 100px;
+    margin: 0px auto;
+    display: inline-block;
+
+}
+
+
+#menu ul li a{
+    display: block;
+    padding-right: 100%;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+ 
+    section {
+        height: 100%;
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    article{
+        width: 330px;
+        text-align: justify;
+    }
+    #articulo {
+        width: 330px;
+        height: auto;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    #mision {
+        width: 330px;
+        height: auto;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    div video {
+   
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 435px;
+    }
+    div video {
+        margin-top: -10px;
+        border-radius: 10px;
+        margin-left: 10px;
+        width: 335px;
+    }
+    .sliders {
+        width: 335px;
+        margin-right: 100px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .fin {
+        margin-top: -180px;
+        margin-bottom: 0px;
+        width: 600px;
+        height: 30px;
+        text-align: center;
+        animation: movimiento1 18s infinite;
+    }
+    
+
+    footer {
+        clear: both;
+        width: 100%;
+        height: 50px;
+    }
+}
+button{
+    margin-left: 0px;
+}
+}
